@@ -1,0 +1,29 @@
+Goal of the project :-
+                       To rename the files with logical names and move them to respective folder automaticallly.
+
+How to do :-
+             Find the path of the file
+             Create some folders to which the files have to be moved
+             Find the extension of the files
+             Find the date in which the files have been created
+             Move the files to the respective folders according the extension
+             Sort the files in chronological order in the folder
+ 
+Requirements :- 
+             
+     Modules required :-
+                       i) Date time Module
+                      ii) Path lib
+
+     Functions of the module :-
+                    
+                     i) Date time Module :-
+                                           Helps to sort the files in chronological order
+                     ii) Path Lib :-
+                                    Helps to trace the path of the files
+                           a) Various attributes of pathlib :-
+                                          * .parent to find the parent of the file
+                                          * .name to print the name of the file
+                                          * .stem to print the name of the file without extension
+                                          * .suffix to print the extension of the file                                  
+
